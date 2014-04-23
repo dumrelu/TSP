@@ -1,0 +1,8 @@
+#Ignore .o files
+*.o
+
+#Ignore executale
+tsp
+
+*~
+*.txt

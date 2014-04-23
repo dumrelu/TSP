@@ -28,4 +28,7 @@ bin/master.o: src/master.c
 bin/slave.o: src/slave.c
 	mpicc -c -o bin/slave.o src/slave.c
 
+exec: compile
+	mpiexec -n 3 ./tsp
+
 	
